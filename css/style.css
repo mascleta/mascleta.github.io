@@ -296,7 +296,7 @@ h4 {
 ========================================================*/
 
 .banner {
-    background: url(../imgs/palette.svg);
+    background: url(../imgs/palette.png);
     background-size: cover;
     background-position: top center;
     text-align: center;
@@ -469,6 +469,9 @@ h4 {
 
 #testimonials .carousel-container {
     margin: 0 auto;
+	
+}#testimonials .h2 {
+    align-text:center;
 }
 
 #testimonials .carousel-container .testi-icon {
