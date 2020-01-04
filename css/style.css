@@ -202,10 +202,11 @@ h4 {
 }
 
 .navbar .navbar-nav .nav-link {
-	color: #ffffff;
+    color: #ffffff;
+    background-color: #ec0868;
     padding: 0 0.8rem;
     transition: all .2s ease-in-out;
-	font-family:Vogue;
+    font-family:Vogue;
     font-size: 20px;
 }
 
