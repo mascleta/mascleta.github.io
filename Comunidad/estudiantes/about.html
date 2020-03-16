@@ -146,8 +146,8 @@
     Si tenés una cuenta studygram y queres estar en nuestra lista <a href="https://instagram.com/mascleta.web" class="alert-link">Comunicate con nosotros!</a>
   </div>
 					
-  <div class="div00" style="height:700px;width:100%;overflow:scroll">
-						   <div class="row" ng-controller="controlador as lista" id="myTable">
+  <div class="div00" style="height:700px;width:100%;overflow:scroll" id="myTable">
+						   <div class="row" ng-controller="controlador as lista" >
 										<div class="col-md-3" style="text-align:center" ng-repeat="cuenta in lista.cuentas|orderBy:'id'">
 										<td>
 												  <div class="card mb-3 shadow-sm">
